@@ -33,7 +33,8 @@ get_header();
  
         // The Query
         $args = array(
-            "category_name" => "nouvelle"
+            "category_name" => "nouvelle",
+            "posts_per_page" => 3
         );
         $query1 = new WP_Query( $args );
         
