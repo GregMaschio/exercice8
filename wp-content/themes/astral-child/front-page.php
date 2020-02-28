@@ -15,8 +15,31 @@
 get_header();
 ?>
 	<div id="primary" class="content-area">
+
+    <div id="content">
+    <section class="align-blog" id="blog">
+        <div class="container">
+            <div class="row">
+                <!-- left side -->
+                <div class="col-lg-8 single-left mt-lg-0 mt-4">
+					<?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+						get_template_part( 'post', 'page' );
+					endwhile;
+					endif;
+					?>
+                </div>
+                <!-- right side -->
+                <div class="col-lg-4 event-right">
+					<?php get_sidebar(); ?>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 		<main id="main" class="site-main">
-         
+    
+
+
 		<?php
 
 		while ( have_posts() ) :

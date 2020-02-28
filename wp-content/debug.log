@@ -29,3 +29,5 @@ Stack trace:
 [28-Feb-2020 19:30:59 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
 [28-Feb-2020 19:31:19 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
 [28-Feb-2020 19:31:54 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:33:34 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:36:19 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
