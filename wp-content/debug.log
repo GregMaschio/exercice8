@@ -9,3 +9,4 @@ Stack trace:
   thrown in C:\xampp\htdocs\2020-veille\wp-content\themes\underscores-child\front-page.php on line 21
 [28-Feb-2020 18:52:02 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in C:\xampp\htdocs\2020-veille\wp-includes\comment.php on line 2606
 [28-Feb-2020 18:54:51 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in C:\xampp\htdocs\2020-veille\wp-content\themes\underscores-child\front-page.php on line 47
+[28-Feb-2020 19:15:11 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
