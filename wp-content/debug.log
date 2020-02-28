@@ -10,3 +10,22 @@ Stack trace:
 [28-Feb-2020 18:52:02 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in C:\xampp\htdocs\2020-veille\wp-includes\comment.php on line 2606
 [28-Feb-2020 18:54:51 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in C:\xampp\htdocs\2020-veille\wp-content\themes\underscores-child\front-page.php on line 47
 [28-Feb-2020 19:15:11 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:25:29 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:26:07 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:26:19 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:26:24 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:26:28 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:26:30 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:26:30 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:27:04 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:27:11 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:27:13 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:27:13 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:27:14 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:27:15 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:29:08 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:29:32 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:29:56 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:30:59 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:31:19 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162
+[28-Feb-2020 19:31:54 UTC] PHP Notice:  Undefined variable: astral_menu_layout in C:\xampp\htdocs\2020-veille\wp-content\themes\astral\inc\header.php on line 162

@@ -70,7 +70,7 @@ get_header();
             $query2->the_post();
             echo '<h3>' . get_the_title( $query2->post->ID ) . '</h3>';
             echo '<p>' . substr(get_the_excerpt(),0,200) . '</p>'; 
-
+            the_post_thumbnail('thumbnail');
         }
         
         // Restore original Post Data
