@@ -34,9 +34,9 @@ get_header();
         // The Query
         $args = array(
             "category_name" => "nouvelle",
-            "posts_per_page" => 3,
-            "orderby" => "date",
-            "order" => "ASC"
+            "posts_per_page" => 3
+            // "orderby" => "date",
+            // "order" => "ASC"
         );
         $query1 = new WP_Query( $args );
         
@@ -44,7 +44,7 @@ get_header();
         while ( $query1->have_posts() ) {
             $query1->the_post();
             echo '<h3>' . get_the_title() . '</h3>';
-            echo '<p>' . get_the_excerpt() . '</p>'; 
+            echo '<p>' . substr(get_the_excerpt(),0,200) . '</p>'; 
         }
         
         /* Restore original Post Data 
