@@ -7,3 +7,4 @@ Stack trace:
 #3 C:\xampp\htdocs\2020-veille\index.php(17): require('C:\\xampp\\htdocs...')
 #4 {main}
   thrown in C:\xampp\htdocs\2020-veille\wp-content\themes\underscores-child\front-page.php on line 21
+[28-Feb-2020 18:52:02 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in C:\xampp\htdocs\2020-veille\wp-includes\comment.php on line 2606

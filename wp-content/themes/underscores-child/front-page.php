@@ -34,14 +34,16 @@ get_header();
         // The Query
         $args = array(
             "category_name" => "nouvelle",
-            "posts_per_page" => 3
+            "posts_per_page" => 3,
+            "orderby" => "date",
+            "order" => "ASC"
         );
         $query1 = new WP_Query( $args );
         
         // The Loop
         while ( $query1->have_posts() ) {
             $query1->the_post();
-            echo '<li>' . get_the_title() . '</li>';
+            echo '<h3>' . get_the_title() . '</h3>';
             echo '<p>' . get_the_excerpt() . '</p>'; 
         }
         
