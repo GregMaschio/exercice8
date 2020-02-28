@@ -30,7 +30,8 @@ get_header();
 			endif;
 
         endwhile; // End of the loop.
- 
+        /////////////////////////////////NOUVELLE
+        echo '<h1>' . category_description(get_category_by_slug('nouvelle')) . '</h1>';
         // The Query
         $args = array(
             "category_name" => "nouvelle",
@@ -55,7 +56,8 @@ get_header();
         */
         wp_reset_postdata();
         
-        
+        /////////////////////////////////EVENEMENT
+        echo '<h1>' . category_description(get_category_by_slug('evenement')) . '</h1>';        
         /* The 2nd Query (without global var) */
         $args2 = array(
             "category_name" => "evenement",
@@ -67,6 +69,8 @@ get_header();
         while ( $query2->have_posts() ) {
             $query2->the_post();
             echo '<h3>' . get_the_title( $query2->post->ID ) . '</h3>';
+            echo '<p>' . substr(get_the_excerpt(),0,200) . '</p>'; 
+
         }
         
         // Restore original Post Data
